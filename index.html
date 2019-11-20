@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/maphilight/1.4.0/jquery.maphilight.min.js"></script>
+<script type="text/javascript">
+  $(function() {
+    $('.map').maphilight();
+  });
+</script>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <img src="images/overview.png" alt="Raingarden Overview" width="1000" height="800" class="map center" usemap="#overview" >
+  <map name="overview">
+    <area shape="circle" coords="337,400,50" alt="West Garden" href="pages/westgarden.html" data-maphilight='{"stroke":false,"fillColor":"2AACE2","fillOpacity":"0.8"}'>
+    <area shape="circle" coords="740,330,50" alt="East Garden" href="pages/eastgarden.html" data-maphilight='{"stroke":false,"fillColor":"2AACE2","fillOpacity":"0.8"}'>
+  </map>
+</body>
+
+</html>

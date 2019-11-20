@@ -1,0 +1,63 @@
+body{
+  background-color: #F8F8F5;
+  border-style: dotted;
+  border-width: 5px;
+  padding-bottom: 50px;
+}
+
+h1{
+  font-size: 50px;
+  font-family: "Andale Mono", monospace;
+  font-weight: 800;
+  padding: 50px;
+}
+
+
+p{
+  font-size: 20px;
+  font-family: "Andale Mono", monospace;
+  font-weight: 500;
+  padding-left: 20px;
+}
+
+h2{
+  font-size: 20px;
+  font-family: "Andale Mono", monospace;
+  font-weight: 800;
+
+}
+
+u{
+  text-decoration: underline;
+}
+
+
+li{
+  font-size: 20px;
+  font-family: "Andale Mono", monospace;
+  font-weight: 500;
+}
+
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.inventory{
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+
+.after-rain{
+  padding-left: 50px;
+  padding-right: 50px;
+
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/maphilight/1.4.0/jquery.maphilight.min.js"></script>
+<script type="text/javascript">
+  $(function() {
+    $('.map').maphilight();
+  });
+</script>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../styles.css">
+</head>
+
+<body>
+  <h1>West Garden</h1>
+
+  <img src="../images/westgarden_edit.png" alt="Raingarden West" width="600" height="800" class="map center" usemap="#westgarden">
+  <map name="westgarden">
+    <area shape="circle" coords="300,400,50" alt="Inventory" href="westinventory.html" data-maphilight='{"stroke":false,"fillColor":"2AACE2","fillOpacity":"0.8"}'>
+    <area shape="circle" coords="400,600,50" alt="Sound" href="sound.html" data-maphilight='{"stroke":false,"fillColor":"2AACE2","fillOpacity":"0.8"}'>
+    <area shape="circle" coords="100,700,50" alt="Sewer" href="west-sewer.html" data-maphilight='{"stroke":false,"fillColor":"2AACE2","fillOpacity":"0.8"}'>
+    <area shape="circle" coords="500,300,50" alt="After Rain" href="west-after-rain.html" data-maphilight='{"stroke":false,"fillColor":"2AACE2","fillOpacity":"0.8"}'>
+    <area shape="circle" coords="500,600,50" alt="During Rain" href="during-rain.html" data-maphilight='{"stroke":false,"fillColor":"2AACE2","fillOpacity":"0.8"}'>
+    <area shape="circle" coords="400,700,50" alt="Trash" href="trash.html" data-maphilight='{"stroke":false,"fillColor":"2AACE2","fillOpacity":"0.8"}'>
+    <area shape="circle" coords="250,500,50" alt="Borders" href="borders.html" data-maphilight='{"stroke":false,"fillColor":"2AACE2","fillOpacity":"0.8"}'>
+    <area shape="circle" coords="250,250,50" alt="Outside Garden" href="outside.html" data-maphilight='{"stroke":false,"fillColor":"2AACE2","fillOpacity":"0.8"}'>
+  </map>
+
+  <audio autoplay>
+        <source src="../sounds/West_rain_garden_oct.m4a" type="audio/mp4">
+  </audio>
+
+</body>
+
+</html>

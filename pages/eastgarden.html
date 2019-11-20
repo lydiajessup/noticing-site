@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/maphilight/1.4.0/jquery.maphilight.min.js"></script>
+<script type="text/javascript">
+  $(function() {
+    $('.map').maphilight();
+  });
+</script>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../styles.css">
+</head>
+
+<body>
+  <h1>East Garden</h1>
+
+  <img src="../images/eastgarden_edit.png" alt="Raingarden East" width="600" height="800" class="map center" usemap="#eastgarden">
+  <map name="eastgarden">
+    <area shape="circle" coords="300,400,50" alt="West Garden" href="eastinventory.html" data-maphilight='{"stroke":false,"fillColor":"2AACE2","fillOpacity":"0.8"}'>
+    <area shape="circle" coords="400,300,50" alt="West Garden" href="bird.html" data-maphilight='{"stroke":false,"fillColor":"2AACE2","fillOpacity":"0.8"}'>
+    <area shape="circle" coords="400,600,50" alt="West Garden" href="sound.html" data-maphilight='{"stroke":false,"fillColor":"2AACE2","fillOpacity":"0.8"}'>
+    <area shape="circle" coords="200,100,50" alt="East Tree" href="easttree.html" data-maphilight='{"stroke":false,"fillColor":"2AACE2","fillOpacity":"0.8"}'>
+    <area shape="circle" coords="100,700,50" alt="East Tree" href="east-sewer.html" data-maphilight='{"stroke":false,"fillColor":"2AACE2","fillOpacity":"0.8"}'>
+    <area shape="circle" coords="200,300,50" alt="After Rain" href="east-after-rain.html" data-maphilight='{"stroke":false,"fillColor":"2AACE2","fillOpacity":"0.8"}'>
+    <area shape="circle" coords="500,700,50" alt="During Rain" href="during-rain.html" data-maphilight='{"stroke":false,"fillColor":"2AACE2","fillOpacity":"0.8"}'>
+    <area shape="circle" coords="400,700,50" alt="Trash" href="trash.html" data-maphilight='{"stroke":false,"fillColor":"2AACE2","fillOpacity":"0.8"}'>
+    <area shape="circle" coords="250,500,50" alt="Borders" href="borders.html" data-maphilight='{"stroke":false,"fillColor":"2AACE2","fillOpacity":"0.8"}'>
+    <area shape="circle" coords="250,250,50" alt="Outside Garden" href="outside.html" data-maphilight='{"stroke":false,"fillColor":"2AACE2","fillOpacity":"0.8"}'>
+  </map>
+
+  <audio autoplay>
+        <source src="../sounds/East_rain_garden_oct.m4a" type="audio/mp4">
+  </audio>
+
+</body>
+
+</html>
